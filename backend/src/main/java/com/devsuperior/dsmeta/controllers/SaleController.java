@@ -17,8 +17,6 @@ public class SaleController {
 	@Autowired
 	private SaleService service;
 	
-	@GetMapping
-	public List<Sale> findSales() {
-		return service.findSales();
-	}
+	
+}
 }
